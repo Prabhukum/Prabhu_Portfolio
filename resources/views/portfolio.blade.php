@@ -1,7 +1,6 @@
 @extends('header')
 <body>
      <!-- navbar -->
- {{-- @extends('navbar') --}}
  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-nav navbarScroll">
     <div class="container">
         <a class="navbar-brand text-white" href="#">Prabhukumar J</a>
