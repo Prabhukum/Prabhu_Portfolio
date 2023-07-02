@@ -19,7 +19,7 @@
                     <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Projects</a>
+                    <a class="nav-link" href="#portfolio">Project</a>
                 </li>
                 <li class="nav-item button">
                     {{-- <a class="nav-link" href="#contact">Contact</a> --}}
