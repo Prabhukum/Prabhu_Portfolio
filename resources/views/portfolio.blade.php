@@ -26,7 +26,7 @@
                     </li>
                     <li class="nav-item button">
                         {{-- <a class="nav-link" href="#contact">Contact</a> --}}
-                        <a class="nav-link" href="{{asset('assets/PrabhuKumar.pdf')}}" download><strong> Download
+                        <a class="nav-link" href="{{asset('assets/Prabhukumar_J.pdf')}}" download><strong> Download
                                 CV</strong></a>
                     </li>
                     {{-- <li class="nav-item button">
@@ -276,7 +276,7 @@
                                 offering a seamless online booking system, showcasing their services, and providing an
                                 interactive gallery to highlight their expertise in men's grooming and hairstyling.</p>
                             <div class="text-center">
-                                {{-- <a href="" target="_blank" class="btn btn-success">Get Page</a> --}}
+                                <a href="#" target="_blank" class="btn btn-success">Get Page</a>
                             </div>
                         </div>
                     </div>
