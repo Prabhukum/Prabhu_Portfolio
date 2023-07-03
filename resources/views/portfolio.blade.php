@@ -53,6 +53,7 @@
     <section id="about">
         <div class="container mt-4 pt-4">
             <h1 class="text-center">About Me</h1>
+            {{-- <hr style="color:black; border:12px"> --}}
             <div class="row mt-4">
                 <div class="col-lg-6 card shadow">
                     <img src="assets/images/Untitled.png" class="imageAboutPage" alt="">
@@ -76,7 +77,41 @@
                         industry trends and deliver cutting-edge solutions.
 
                         Throughout my journey, I have had the opportunity to work on a variety of projects, both
-                        independently and as part of a collaborative team. These experiences have honed my ability to
+                        independently and as part of a collaborative team.
+                        <section class="cv">
+                            <h3 class="cv-title">Education</h3>
+
+                            <ul class="cv-txt">
+                                <li>
+                                    <div>
+                                        <span>2015-2019</span>
+                                        <p>
+                                            Bachelor of Engineering in Mechanical Engineering, St.Peter's University
+                                            <br />
+                                            of Avadi, Annanur.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                {{-- <li>
+                                    <div>
+                                        <span>2012-2014</span>
+                                        <p>
+                                            Associate of Arts in Graphic Design, San Francisco State <br />
+                                            University
+                                        </p>
+                                    </div>
+                                </li> --}}
+
+                                <li>
+                                    <div>
+                                        <span>2012-2014</span>
+                                        <p>High School Diploma, Vethathiri Maharishi Higher Secondary School</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                    {{-- These experiences have honed my ability to
                         understand client requirements, translate them into technical specifications, and deliver
                         high-quality results within deadlines. I am a firm believer in the power of effective
                         communication and collaboration, which allows me to work seamlessly with cross-functional teams
@@ -95,7 +130,7 @@
 
                         When I'm not coding, you can often find me exploring new programming concepts, reading up on the
                         latest industry trends, or engaging in community-driven projects. I am passionate about sharing
-                        my knowledge with others and contributing to the growth of the developer community.
+                        my knowledge with others and contributing to the growth of the developer community. --}}
 
                         I am excited to continue my journey as a software developer, embracing new challenges and
                         opportunities along the way. If you're looking for a dedicated full-stack developer with
@@ -139,7 +174,7 @@
 
     <!-- services section-->
     <section id="services">
-        <div class="container">
+        <div class="container  mt-3">
             <h1 class="text-center">Services</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
@@ -385,6 +420,10 @@
         </div>
     </section>
 
+
+    <style>
+        */
+    </style>
     <!-- footer section-->
     <footer id="footer">
         <div class="container-fluid">
@@ -392,7 +431,7 @@
             <div class="social-icons mt-4">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://www.linkedin.com/in/nelson-prabhu-86b988249" target="_blank"><i
                         class="fab fa-linkedin"></i></a>
                 {{-- <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> --}}
