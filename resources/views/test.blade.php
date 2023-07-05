@@ -9,7 +9,6 @@
     <link href="{{asset('assets/bootstrap-5.3.0-dist/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
 
@@ -679,5 +678,28 @@
 
 </script>
 
+<script>
+    // add class navbarDark on navbar scroll
+    const header = document.querySelector('.navbar');
+    console.log(header)
+    window.onscroll = function () {
+        const top = window.scrollY;
+        if (top >= 100) {
+            header.classList.add('navbarDark');
+        } else {
+            header.classList.remove('navbarDark');
+        }
+    }
+    // collapse navbar after click on small devices
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarSupportedContent')
+
+    navLinks.forEach((l) => {
+        l.addEventListener('click', () => {
+            new bootstrap.Collapse(menuToggle).toggle()
+        })
+    })
+
+</script>
 
 </html>
