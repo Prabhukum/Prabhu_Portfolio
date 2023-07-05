@@ -361,16 +361,6 @@ class UserController extends Controller
         </td></tr></table>
 
         </body>
-                    // <table>
-                    //     <tr>
-                    //         <td>
-                    //             <h1>New message from ' . $name . '</h1>
-                    //             <p>Email: ' . $email . '</p>
-                    //             <p>Message: ' . $subject . '</p>
-                    //         </td>
-                    //     </tr>
-                    // </table>
-                </body>
             </html>';
 
             $mail->send();
