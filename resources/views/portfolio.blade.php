@@ -9,14 +9,12 @@
     <link href="{{asset('assets/bootstrap-5.3.0-dist/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+       <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
 
 
 <body>
     <!-- navbar -->
-
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-nav navbarScroll">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Prabhukumar J</a>
@@ -110,7 +108,7 @@
                         independently and as part of a collaborative team.
 
                         <div class="row mt-2">
-                            <div class="col-lg-6 p-2">
+                            <div class="col-lg-5 p-2">
                               <ul>
                                 <li><i class="bi bi-balloon-fill"></i> <strong>Birthday:</strong> <span>12 mar 1996</span></li>
                                 <li><i class="bi bi-globe"></i> <strong>Website:</strong> <span>www.dream-dev.in</span></li>
@@ -118,7 +116,7 @@
                                 <li><i class="bi bi-geo-alt-fill"></i> <strong>City:</strong> <span>TamilNadu, India</span></li>
                               </ul>
                             </div>
-                            <div class="col-lg-6 mb-2">
+                            <div class="col-lg-7 mb-2">
                               <ul>
                                 <li><i class="bi bi-calendar2-week-fill"></i> <strong>Age:</strong> <span>27</span></li>
                                 <li><i class="bi bi-mortarboard-fill"></i> <strong>Degree:</strong> <span>BE MECH</span></li>
@@ -138,36 +136,6 @@
 
                         Thank you for taking the time to get to know me. I look forward to connecting with you soon!
                     </p>
-                    <div class="row mt-3">
-                        {{-- <div class="col-md-12">
-                            <ul>
-                                <li>Name: PRABHUKUMAR J</li>
-                                <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
-
-                            </ul>
-                        </div> --}}
-                        {{-- <div class="col-md-6">
-                            <ul>
-                                <li>Name: David Parker</li>
-                                <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
-
-                            </ul>
-                        </div>
-                    </div> --}}
-                        {{-- <div class="row mt-3">
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                        </p>
-                    </div> --}}
-                    </div>
                 </div>
     </section>
 
@@ -405,12 +373,6 @@
                                 target="_blank"><img class="card-img-top"
                                     src="{{asset('assets/Certificates/NO6ANEEF27.jpg')}}" alt="Card image"
                                     style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -435,12 +397,6 @@
                                 target="_blank"><img class="card-img-top"
                                     src="{{asset('assets/Certificates/7RBZSC3JPC.jpg')}}" alt="Card image"
                                     style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -450,12 +406,6 @@
                                 target="_blank"><img class="card-img-top"
                                     src="{{asset('assets/Certificates/EUDM4IXR45.jpg')}}" alt="Card image"
                                     style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -474,12 +424,6 @@
                                 target="_blank"><img class="card-img-top"
                                     src="{{asset('assets/Certificates/SHWJT9BQR7.jpg')}}" alt="Card image"
                                     style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -488,12 +432,6 @@
                             <a href="https://www.udemy.com/certificate/UC-13babca4-c495-4d8a-8edf-23e54f5c0d1f/"
                                 target="_blank"><img class="card-img-top" src="{{asset('assets/Certificates/.jpg')}}"
                                     alt="Card image" style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -503,12 +441,6 @@
                                 target="_blank"><img class="card-img-top"
                                     src="{{asset('assets/Certificates/UC-13babca4-c495-4d8a-8edf-23e54f5c0d1f.jpg')}}"
                                     alt="Card image" style="width:100%" height="300px"> </a>
-                            {{-- <div class="">
-                            <h4 class="card-title">Order Management System</h4>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Get Page</a>
-                            </div>
-                        </div> --}}
                         </div>
                     </div>
 
@@ -530,52 +462,13 @@
             </div>
         </section>
     </div>
+
     {{-- sm-certificate section ends--}}
 
 
 
-    {{-- <div class="row">
-        <div class="col-lg-4 mt-4">
-            <div class="card portfolioContent">
-                <img class="card-img-top" src="assets/images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Messaging Service</h4>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-success">Link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 mt-4">
-            <div class="card portfolioContent">
-                <img class="card-img-top" src="assets/images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Twitter Clone</h4>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-success">Link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 mt-4">
-            <div class="card portfolioContent">
-                <img class="card-img-top" src="assets/images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Blog App</h4>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-success">Link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
     <!-- contact section-->
+
     <section id="contact">
         <div class="container mt-1 contactContent">
             <h1 class="animate__animated animate__bounce text-center">Contact Me</h1>
@@ -621,6 +514,7 @@
     </section>
 
     <!-- footer section-->
+
     <footer id="footer">
         <div class="container-fluid">
             <!-- social media icons -->
@@ -637,80 +531,89 @@
     {{-- @extends('footer') --}}
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-</script>
-{{-- <script src="{{asset('assets/bootstrap-5.3.0-dist/js/jquery.min.js')}}"></script> --}}
-{{-- images --}}
-<script src="{{asset('assets/images')}}"></script>
-<!-- font awesome -->
-<script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-<!-- load javascript after loading all html content -->
-<script src="{{asset('assets/js/index.js')}}"></script>
 
-{{-- sweetalert --}}
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                        {{-- All Scripts --}}
 
-{{-- animate.css --}}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<script>
-    // Add hover effect to portfolio cards
-    const portfolioCards = document.querySelectorAll('.portfolioContent');
 
-    portfolioCards.forEach(card => {
-        card.addEventListener('mouseover', () => {
-            card.classList.add('card-hover');
-        });
 
-        card.addEventListener('mouseout', () => {
-            card.classList.remove('card-hover');
-        });
-    });
-</script>
+                        {{-- Bootstrap --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    {{-- <script src="{{asset('assets/bootstrap-5.3.0-dist/js/jquery.min.js')}}"></script> --}}
 
-<script>
-    // SWEETALERT for form submition
-     // JavaScript code
-    document.addEventListener('DOMContentLoaded', function() {
-    // Get the form element and button element
-    var myForm = document.getElementById('myForm');
-    var sendButton = document.getElementById('button');
+                {{-- images --}}
+    <script src="{{asset('assets/images')}}"></script>
 
-    // Add submit event listener to the form
-    myForm.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission behavior
+                 <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 
-        // Perform AJAX request to submit form data
-        var formData = new FormData(myForm);
-        var xhr = new XMLHttpRequest();
+    <!-- load javascript after loading all html content -->
+    <script src="{{asset('assets/js/index.js')}}"></script>
 
-        xhr.open('POST', '/contact/store');
-        xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-            // Show SweetAlert on successful response
-            Swal.fire(
-                'Thank You!',
-                'I will Contact You Soon!',
-                'success'
-            ).then((result) => {
-                     window.location.href = "{{route('home') }}";
+            {{-- sweetalert --}}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    {{-- animate.css --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script>
+        // Add hover effect to portfolio cards
+        const portfolioCards = document.querySelectorAll('.portfolioContent');
+
+        portfolioCards.forEach(card => {
+            card.addEventListener('mouseover', () => {
+                card.classList.add('card-hover');
             });
-            } else {
-            // Show error message on failed response
-            Swal.fire(
-                'Error',
-                'Something went wrong. Please try again.',
-                'error'
-            );
-            }
-        }
-        };
 
-        xhr.send(formData);
-    });
-    });
-</script>
+            card.addEventListener('mouseout', () => {
+                card.classList.remove('card-hover');
+            });
+        });
+    </script>
+
+    <script>
+        // SWEETALERT for form submition
+        // JavaScript code
+        document.addEventListener('DOMContentLoaded', function() {
+        // Get the form element and button element
+        var myForm = document.getElementById('myForm');
+        var sendButton = document.getElementById('button');
+
+        // Add submit event listener to the form
+        myForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            // Perform AJAX request to submit form data
+            var formData = new FormData(myForm);
+            var xhr = new XMLHttpRequest();
+
+            xhr.open('POST', '/contact/store');
+            xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                // Show SweetAlert on successful response
+                Swal.fire(
+                    'Thank You!',
+                    'I will Contact You Soon!',
+                    'success'
+                ).then((result) => {
+                        window.location.href = "{{route('home') }}";
+                });
+                } else {
+                // Show error message on failed response
+                Swal.fire(
+                    'Error',
+                    'Something went wrong. Please try again.',
+                    'error'
+                );
+                }
+            }
+            };
+
+            xhr.send(formData);
+        });
+        });
+    </script>
 
 
 </html>
