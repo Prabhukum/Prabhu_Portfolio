@@ -64,7 +64,7 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="animate__animated animate__bounce text-center">About Me</h1>
             {{-- <hr style="color:black; border:12px"> --}}
             <div class="row mt-4">
                 <div class="col-lg-6">
@@ -81,10 +81,9 @@
                         From the very beginning, I was captivated by the world of full-stack development. I immersed
                         myself in the Laravel-PHP framework,
                         <section class="cv">
-                            <h3 class="cv-title">Education</h3>
+                            <h3 class="cv-title text-center">Education</h3>
 
-                            <ul class="cv-txt">
-                                <li>
+                            <ul class="cv-txt text-center">
                                     <div>
                                         <span>2015-2019</span>
                                         <p>
@@ -93,58 +92,44 @@
                                             of Avadi, Annanur.
                                         </p>
                                     </div>
-                                </li>
 
-                                {{-- <li>
                                     <div>
                                         <span>2012-2014</span>
-                                        <p>
-                                            Associate of Arts in Graphic Design, San Francisco State <br />
-                                            University
-                                        </p>
+                                        <p>High School Diploma, Vethathiri Maharishi Higher Secondary School.</p>
                                     </div>
-                                </li> --}}
-
-                                <li>
-                                    <div>
-                                        <span>2012-2014</span>
-                                        <p>High School Diploma, Vethathiri Maharishi Higher Secondary School</p>
-                                    </div>
-                                </li>
                             </ul>
                         </section>
+
                         and it has become my foundation for creating robust and
                         scalable web applications. The power and flexibility of Laravel combined with the elegance of
                         PHP have allowed me to bring my ideas to life and provide seamless user experiences.
 
                         As a developer, I believe in the importance of staying ahead in the ever-evolving tech industry.
-                        I constantly upskill myself, dedicating time each day to expand my knowledge and sharpen my
-                        skills. This commitment to continuous learning has enabled me to stay at the forefront of
-                        industry trends and deliver cutting-edge solutions.
-
+                        I constantly upskill myself,
                         Throughout my journey, I have had the opportunity to work on a variety of projects, both
                         independently and as part of a collaborative team.
 
-                        These experiences have honed my ability to
-                        understand client requirements, translate them into technical specifications, and deliver
-                        high-quality results within deadlines. I am a firm believer in the power of effective
+                        <div class="row mt-2">
+                            <div class="col-lg-6 p-2">
+                              <ul>
+                                <li><i class="bi bi-balloon-fill"></i> <strong>Birthday:</strong> <span>12 mar 1996</span></li>
+                                <li><i class="bi bi-globe"></i> <strong>Website:</strong> <span>www.dream-dev.in</span></li>
+                                <li><i class="bi bi-telephone-fill"></i> <strong>Phone:</strong> <span>+91 7418407250</span></li>
+                                <li><i class="bi bi-geo-alt-fill"></i> <strong>City:</strong> <span>TamilNadu, India</span></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-2">
+                              <ul>
+                                <li><i class="bi bi-calendar2-week-fill"></i> <strong>Age:</strong> <span>27</span></li>
+                                <li><i class="bi bi-mortarboard-fill"></i> <strong>Degree:</strong> <span>BE MECH</span></li>
+                                <li><i class="bi bi-envelope-at-fill"></i> <strong>Email:</strong> <span>nelsonprabhu07088@gmail.com</span></li>
+                                <li><i class="bi bi-briefcase-fill"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                         I am a firm believer in the power of effective
                         communication and collaboration, which allows me to work seamlessly with cross-functional teams
                         and deliver exceptional outcomes.
-
-                        {{-- What truly excites me about software development is the ability to create tangible solutions
-                        that make a positive impact on people's lives. Whether it's developing intuitive user
-                        interfaces, optimizing backend processes, or improving overall system performance, I find
-                        fulfillment in leveraging technology to solve real-world problems.
-
-                        In addition to my technical skills, I value creativity, attention to detail, and a strong work
-                        ethic. I approach every project with a sense of enthusiasm and determination, striving for
-                        excellence in every line of code I write. I am also open to exploring new technologies and
-                        frameworks, as I believe that versatility is key to staying adaptable in the ever-changing
-                        landscape of software development.
-
-                        When I'm not coding, you can often find me exploring new programming concepts, reading up on the
-                        latest industry trends, or engaging in community-driven projects. I am passionate about sharing
-                        my knowledge with others and contributing to the growth of the developer community. --}}
 
                         I am excited to continue my journey as a software developer, embracing new challenges and
                         opportunities along the way. If you're looking for a dedicated full-stack developer with
@@ -189,7 +174,7 @@
     <!-- services section-->
     <section id="services">
         <div class="container  mt-3">
-            <h1 class="text-center">Services</h1>
+            <h1 class="animate__animated animate__bounce text-center">Services</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card shadow servicesText">
@@ -280,7 +265,7 @@
 
     <section id="portfolio">
         <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
+            <h1 class="animate__animated animate__bounce text-center">Projects</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
@@ -310,7 +295,7 @@
                                 delightful user experience. Implemented a robust backend to manage orders and deliveries
                                 efficiently.</p>
                             <div class="text-center">
-                                <a href="#" target="_blank" class="btn btn-success">Get Page</a>
+                                <a href="#" class="btn btn-success">Get Page</a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +311,7 @@
                                 offering a seamless online booking system, showcasing their services, and providing an
                                 interactive gallery to highlight their expertise in men's grooming and hairstyling.</p>
                             <div class="text-center">
-                                <a href="https://saloon.my-style.in/" target="_blank" class="btn btn-success">Get
+                                <a href="#"  class="btn btn-success">Get
                                     Page</a>
                             </div>
                         </div>
@@ -412,7 +397,7 @@
     <div class="d-lg-none">
         <section id="certificates">
             <div class="container mt-3">
-                <h1 class="text-center">Certificate</h1>
+                <h1 class="animate__animated animate__bounce text-center">Certificate</h1>
                 <div class="row">
                     <div class="col-lg-4 mt-4">
                         <div class=" portfolioContent">
@@ -593,7 +578,7 @@
     <!-- contact section-->
     <section id="contact">
         <div class="container mt-1 contactContent">
-            <h1 class="text-center">Contact Me</h1>
+            <h1 class="animate__animated animate__bounce text-center">Contact Me</h1>
             <div class="row mt-4">
                 <div class="col-lg-6">
                     <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
@@ -619,7 +604,7 @@
                 </div>
                 <div class="col-lg-6 mt-3">
                     <!-- form fields -->
-                    <form action="{{ route('contact.store') }}" method="POST">
+                    <form id="myForm" action="{{ route('contact.store') }}" method="POST">
                         @csrf
                         <input type="text" name="name" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" name="email" class="form-control mt-3" placeholder="Email">
@@ -628,8 +613,8 @@
                             <textarea class="form-control" rows="5" id="comment" name="project_details"
                                 placeholder="Project Details"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success mt-3">Send</button>
-                    </form>
+                        <button type="submit" id="button" class="btn btn-success mt-3">Send</button>
+                 </form>
                 </div>
             </div>
         </div>
@@ -663,6 +648,11 @@
 <!-- load javascript after loading all html content -->
 <script src="{{asset('assets/js/index.js')}}"></script>
 
+{{-- sweetalert --}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+{{-- animate.css --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <script>
     // Add hover effect to portfolio cards
     const portfolioCards = document.querySelectorAll('.portfolioContent');
@@ -676,7 +666,50 @@
             card.classList.remove('card-hover');
         });
     });
+</script>
 
+<script>
+    // SWEETALERT for form submition
+     // JavaScript code
+    document.addEventListener('DOMContentLoaded', function() {
+    // Get the form element and button element
+    var myForm = document.getElementById('myForm');
+    var sendButton = document.getElementById('button');
+
+    // Add submit event listener to the form
+    myForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+
+        // Perform AJAX request to submit form data
+        var formData = new FormData(myForm);
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST', '/contact/store');
+        xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+            // Show SweetAlert on successful response
+            Swal.fire(
+                'Thank You!',
+                'I will Contact You Soon!',
+                'success'
+            ).then((result) => {
+                     window.location.href = "{{route('home') }}";
+            });
+            } else {
+            // Show error message on failed response
+            Swal.fire(
+                'Error',
+                'Something went wrong. Please try again.',
+                'error'
+            );
+            }
+        }
+        };
+
+        xhr.send(formData);
+    });
+    });
 </script>
 
 
