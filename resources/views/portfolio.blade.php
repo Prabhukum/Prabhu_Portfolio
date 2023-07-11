@@ -519,11 +519,10 @@
         <div class="container-fluid">
             <!-- social media icons -->
             <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/nelson-prabhu-86b988249" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/nelson.prabhu.731?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/nelzon_praboo?igshid=NGExMmI2YTkyZg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/7418407250" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/nelson-prabhu-86b988249" target="_blank"><i class="fab fa-linkedin"></i></a>
                 {{-- <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> --}}
             </div>
         </div>
