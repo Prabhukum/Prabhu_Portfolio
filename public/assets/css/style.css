@@ -15,6 +15,15 @@
     background-size:cover;
     position:relative;
 }
+
+/* Media query for smaller devices */
+/* @media (max-width: 768px) {
+    .bgimage {
+        background: url("../images/sm_pic.png");
+    }
+} */
+
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -57,6 +66,7 @@
 .card-title {
     text-align: center;
 }
+
 .card:hover .servicesIcon {
     color: #008000;
 }

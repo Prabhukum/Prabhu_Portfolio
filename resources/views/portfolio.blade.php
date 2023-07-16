@@ -307,6 +307,8 @@
                     aria-label="Slide 5"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
                     aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -343,6 +345,13 @@
                     {{-- <a href="https://certificates.ccbp.in/intensive/responsive-website?id=SHWJT9BQR7" target="_blank"> --}}
                     <img class="card-img-top"
                         src="{{asset('assets/Certificates/UC-13babca4-c495-4d8a-8edf-23e54f5c0d1f.jpg')}}"
+                        alt="Card image" style="width:100%" height="100%">
+                    {{-- </a> --}}
+                </div>
+                <div class="carousel-item">
+                    {{-- <a href="https://certificates.ccbp.in/intensive/responsive-website?id=SHWJT9BQR7" target="_blank"> --}}
+                    <img class="card-img-top"
+                        src="{{asset('assets/Certificates/UC-5bb2c632-417d-425c-8f6d-288626ebadd0.jpg')}}"
                         alt="Card image" style="width:100%" height="100%">
                     {{-- </a> --}}
                 </div>
@@ -428,11 +437,11 @@
                     </div>
 
                     <div class="col-lg-4 mt-4">
-                        <div class=" portfolioContent">
+                        {{-- <div class=" portfolioContent">
                             <a href="https://www.udemy.com/certificate/UC-13babca4-c495-4d8a-8edf-23e54f5c0d1f/"
                                 target="_blank"><img class="card-img-top" src="{{asset('assets/Certificates/.jpg')}}"
                                     alt="Card image" style="width:100%" height="300px"> </a>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <div class="col-lg-4 mt-4">
@@ -447,7 +456,7 @@
                     <div class="col-lg-4 mt-4">
                         <div class=" portfolioContent">
                             <a href="https://certificates.ccbp.in/intensive/responsive-website?id=SHWJT9BQR7"
-                                target="_blank"><img class="card-img-top" src="{{asset('assets/Certificates/.jpg')}}"
+                                target="_blank"><img class="card-img-top" src="{{asset('assets/Certificates/UC-5bb2c632-417d-425c-8f6d-288626ebadd0.jpg')}}"
                                     alt="Card image" style="width:100%" height="300px"> </a>
                             {{-- <div class="">
                             <h4 class="card-title">Order Management System</h4>
